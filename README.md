@@ -97,12 +97,12 @@ cd /home/mendozalz/Escritorio/StudiaIA/Ejercicio#1-clasificacion
 
 **En Windows:**
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 
 **En Mac/Linux:**
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 
 Este comando crea una carpeta llamada `venv` (es como un "mini Python" solo para tu proyecto).
