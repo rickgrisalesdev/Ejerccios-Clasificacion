@@ -97,12 +97,12 @@ cd /home/mendozalz/Escritorio/StudiaIA/Ejercicio#1-clasificacion
 
 **En Windows:**
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 
 **En Mac/Linux:**
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 
 Este comando crea una carpeta llamada `venv` (es como un "mini Python" solo para tu proyecto).
@@ -111,17 +111,17 @@ Este comando crea una carpeta llamada `venv` (es como un "mini Python" solo para
 
 **En Windows:**
 ```bash
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 **En Mac/Linux:**
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 **¿Funcionó?** Si ves algo como esto en tu terminal, significa que los pasos anteriores fueron correctos:
 ```bash
-(venv) $
+(.venv) $
 ```
 
 Nota que ahora tu terminal muestra `(venv)` al inicio. Eso significa que estás dentro del entorno virtual.
@@ -174,9 +174,9 @@ pip install --upgrade pandas
 
 ### Paso 1: Asegúrate de estar en el entorno virtual
 
-Tu terminal debe mostrar `(venv)` al inicio:
+Tu terminal debe mostrar `(.venv)` al inicio:
 ```bash
-(venv) $
+(.venv) $
 ```
 
 ### Paso 2: Ejecuta el archivo principal
